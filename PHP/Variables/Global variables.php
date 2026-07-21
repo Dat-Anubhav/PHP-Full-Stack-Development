@@ -40,3 +40,13 @@ myfunct();
 
 
 ?>
+
+<!--$_SERVER-->
+
+<?php
+
+ECHO "file_name:".$_SERVER['PHP_SELF'];
+//$_SERVER['PHP_SELF'] is a superglobal variable that returns the filename of the currently executing script, 
+// relative to the document root.
+
+?>
