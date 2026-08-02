@@ -33,4 +33,19 @@ foreach($directory as $dir)
     {
         echo $dir.PHP_EOL."<br>";
     }
+
+// Create directory
+
+$result = glob("*.php");
+
+echo "<br><br>";
+var_dump($result);
+
+if(!file_exists("Test_Folder_2"))
+    {
+        mkdir("Test_Folder_2");
+        echo "<br>"."A new directory has been created"."<br>";
+    }
+
+
 ?>
