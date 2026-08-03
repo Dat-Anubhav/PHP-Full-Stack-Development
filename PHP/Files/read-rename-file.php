@@ -24,4 +24,3 @@ else
         echo "<br>"."The file doest not exists in the directory"."<br>";
         die("u fool");
     }
-?>
