@@ -27,6 +27,15 @@ $cool_car->set_color('red');
 
 echo "cool car is :".$cool_car->name."  "."color is: ".$cool_car->color;
 
+$modern_car= new car();
+
+$modern_car->set_name('fortuner');
+$modern_car->set_color('black');
+
+echo "<br>"."Modern car: "." ".$modern_car->name." "."Modern car color is: ".$modern_car->color;
+
+
+
 
 
 ?>
