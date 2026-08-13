@@ -1,6 +1,6 @@
 <?php
 
-class University
+class Uni
 {
     public $college='Delhi University';
 
