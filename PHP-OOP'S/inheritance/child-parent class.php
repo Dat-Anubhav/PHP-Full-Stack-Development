@@ -1,6 +1,6 @@
 <?php
 
-class Uni
+class University
 {
     public $college='Delhi University';
 
@@ -12,6 +12,7 @@ class Uni
 
 class College extends University
 {
+
     function college()
     {
         echo "This is a College class"."<br>"."from $this->college";
