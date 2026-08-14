@@ -13,12 +13,12 @@ $teacher1->print_university_details();
 
 echo "<br><br>";
 
-// $university2 = new University('Sidharth University','Sidharth Nagar',12345);
+$university2 = new University('Sidharth University','Sidharth Nagar',12345);
 
-// $teacher2 = new teacher('Rishu',25,'Chemistry',$university2);
+$teacher2 = new teacher('Rishu',25,'Chemistry',$university2);
 
-// $teacher2->print_teacher_details();
-// $teacher2->print_university_details();
+$teacher2->print_teacher_details();
+$teacher2->print_university_details();
 
 
 
