@@ -11,5 +11,12 @@ Route::get('/first', function (){
     return view('first');
 });
 
+//Routing with controller
 Route::get('/con', [ClaimController::class, 'index']);
+
+Route::any('/users', function () {
+return 'User Created Yippeee';
+});
+
+
 
