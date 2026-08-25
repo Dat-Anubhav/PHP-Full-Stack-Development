@@ -10,4 +10,9 @@ class ClaimController extends Controller
     {
         return view('claims.index');
     }
+
+    function sindex()
+    {
+        return "Hello swarn";
+    }
 }
