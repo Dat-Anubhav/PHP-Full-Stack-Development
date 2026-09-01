@@ -17,6 +17,8 @@ use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Support\Str;
+use Filament\Actions\ViewAction;
+use Filament\Actions\EditAction;
 
 class PostResource extends Resource
 {
@@ -82,6 +84,11 @@ class PostResource extends Resource
             //
         ];
     }
+
+    public static function getNavigationLabel(): string
+{
+    return 'Blog Posts';
+}
 
     public static function getPages(): array
     {
